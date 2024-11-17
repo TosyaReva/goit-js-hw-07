@@ -1,0 +1,31 @@
+#categories {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.item {
+  border: 1px solid black;
+  padding: 24px;
+  list-style: none;
+  margin-top: 64px;
+  position: relative;
+  border-radius: 2px;
+}
+
+.item > h2 {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0 16px;
+  background-color: #fafafa;
+}
+
+.item li {
+  list-style-type: disc;
+}
+
+.item li:hover {
+  scale: 105%;
+}

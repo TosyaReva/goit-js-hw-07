@@ -1,0 +1,33 @@
+#boxes {
+  margin-top: 24px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  gap: 30px;
+}
+
+#boxes div {
+  border-radius: 90%;
+  animation: create 200ms;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 128px;
+}
+
+button[type='button'] {
+  margin-left: 16px;
+}
+
+@keyframes create {
+  0% {
+    scale: 0;
+  }
+
+  100% {
+    scale: 100%;
+  }
+}

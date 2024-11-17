@@ -1,0 +1,20 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 360px;
+  height: 300px;
+  border-radius: 4px;
+  transition-duration: 200ms;
+  transition-property: filter, transform;
+  filter: saturate(0%);
+}
+
+.gallery img:hover {
+  filter: saturate(1);
+  transform: scale(105%);
+}
